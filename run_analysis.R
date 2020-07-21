@@ -35,4 +35,4 @@ names(tidy) <- gsub(pattern = "Frequency", replacement = "Frequency_", names(tid
 
 
 grouped_avg <- tidy %>% group_by(Individuals, Codes) %>% summarise_all(funs(mean))
-result <- select(grouped_avg, Individuals, Codes, contains("mean"))
+
