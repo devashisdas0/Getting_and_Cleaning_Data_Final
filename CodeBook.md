@@ -7,6 +7,7 @@
   * activity_labels.txt
   * training sets for x, y, and subjects
   * testing sets for x, y, and subjects
+
 **Transformations**
 1. Combine by rows test and train sets for x, y, and subjects using rbind
 2. Combine these three datasets toegther using cbind so all the columns are together, the resulting dataset is 10,299 rows and 563 columns
